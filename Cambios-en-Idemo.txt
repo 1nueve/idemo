@@ -1,0 +1,24 @@
+Cambios en Idemo:
+Agregar un cuadro a la derecha, que sea un menú que permita:
+- Mostrar un menú en la parte de la derecha:
+  - Debe ir a cada una de las subsecciones
+  - Usar nombres de las fotos con una misma foto repetida
+
+Pasos:
+1. Crear un nuevo DIV
+2. Asignarle los estilos nuevos que aparecen abajo (ver las propiedades de border-radius y de CSS3)
+3. Crear el contenido del cuadro
+4. Crear las páginas a las que enlaza junto con sus respectivos sliders (cambiar el nombre de las fotos autoservicio-1.jpg, autoservicio-2.jpg)
+
+height: 329px;
+padding-top: 30px;
+padding-right: 27px;
+width: 200px;
+background: url(images/cont-auto-05.png) no-repeat;
+position: absolute;
+background: white;
+top: 12px;
+left: 721px;
+z-index: 1000;
+border: 3px black solid;
+border-radius: 5px;
