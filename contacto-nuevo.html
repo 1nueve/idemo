@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>IDEMO</title>
+<!-- InstanceEndEditable -->
+<link href="stylo.css" rel="stylesheet" type="text/css" />
+
+<!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+
+<!-- jQuery REVOLUTION Slider  -->
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+ 
+<!-- REVOLUTION BANNER CSS SETTINGS -->
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="rs-plugin/css/responsive.css" media="screen" />
+<!-- InstanceBeginEditable name="cont-close" -->
+<script>
+	function demoDisplay()
+	{
+	document.getElementById("cont-auto").style.display="none";
+	}
+
+	function demoVisibility()
+	{
+	document.getElementById("p2").style.visibility="hidden";
+	}
+</script>
+<!-- InstanceEndEditable -->
+<!-- LIGHTBOX-->
+
+<script src="js/lightbox.js"></script>
+<link href="css/lightbox.css" rel="stylesheet" />
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="container">
+    	<header id="header">
+        	<a href="index.html"id="logo">
+            </a>
+        <div id="form">
+
+            <form method="POST" action="send.php" id="formulario">
+              <div id="izq">
+                 <div id="nombre"> <input name="nombre" /> <input name="apellido" /> </div>
+                <div id="mail"> <input name="mail" /> </div>
+                <div id="telefono"> <input name="telefono" /> </div>
+
+              </div>
+              <div id="der">
+                <div id="dir"> <textarea name="mensaje"></textarea> </div>
+                <input id="enviar" type="submit" value="enviar"/>
+              </div>
+            </form>
+        
+        </div>    
+  </header>
+  
+  <nav id="menu">
+  
+     	<a id="idemo" href="index.html">Idemo</a>
+        <a id="infra" href="infraestructrua.html">Infraestructura</a>
+        <a id="pro" href="proyectos-especiales.html">Proyectos Especiales</a>
+        <a id="auto" class="active" href="autoservicio.html">Autoservicio</a>
+        <a id="depa" href="departamental.html">Departamental</a>
+        <a id="centro" href="centros-comerciales.html">Centros Comerciales</a>
+       <a id="pop" href="punto-de-venta.html">Punto de Venta</a>
+        <a id="casa"href="idemo-casa.html">Idemo Casa</a>
+        <a id="sw" href="switch.html">Switch</a>
+        
+ 	 
+  </nav>
+  <div id="botones">
+  
+  
+  </div>
+  <!-- InstanceBeginEditable name="main" -->
+  <div id="main">
+    <div id="area-contacto">
+      <form  method="POST" action="send.php">
+        <h1>Contactanos</h1>
+        <label><span>Nombre<input type="text" name="nombre"></span></label>      
+        <label><span>Email</span><input type="text" name="mail"></label>      
+        <label><span>Teléfono<span><input type="text" name="telefono"></label>      
+        <label><span>Mensaje</span><textarea id="mensaje" name="mensaje"></textarea></label>
+        <input type="button" id="boton" value="Contactar">
+      </form>
+    </div>
+    
+  </div>
+  <!-- InstanceEndEditable -->
+  <footer>
+    	<div id="footer-superior">
+        <a id="facebook" href="facebook.com"> </a>
+        <a id="twitter" href="twitter.com">    </a>
+        <span id="direccion"> </span>
+        </div> 
+        <div id="footer-inferior">
+        	<span id="tel">Conmutador +52 (55) 5358 4980 &#8226; 5358 4388</span>
+            
+            <span id="contacto">  <a>contacto@idemo.com.mx</a> </span>
+        </div> 
+	</footer>
+</div>
+
+
+
+</body>
+<!-- InstanceEnd --></html>
