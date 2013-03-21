@@ -35,7 +35,7 @@
 					thumbAmount:5,
 
 					navigationType:"both",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
-					navigationArrows:"nexttobullets",		//nexttobullets, verticalcentered, none
+					navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
 					navigationStyle:"round",				//round,square,navbar
 
 					touchenabled:"on",						// Enable Swipe Function : on/off
